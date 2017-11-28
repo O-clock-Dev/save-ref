@@ -1,0 +1,8 @@
+{
+  "name": "save-ref",
+  "version": "1.0.0",
+  "description": "Curry function to save ref in instance",
+  "main": "index.js",
+  "author": "Maxime Vasse <maxime@oclock.io>",
+  "license": "MIT"
+}

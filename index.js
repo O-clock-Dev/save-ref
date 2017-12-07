@@ -1,3 +1,7 @@
-module.exports = instance => ref => (node) => {
-  instance[ref] = node;
+module.exports = function(instance) {
+  return function(ref) {
+     return function(node) {
+       instance[ref] = node;
+     };
+  };
 };
